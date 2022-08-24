@@ -61,7 +61,6 @@
   .balloon {
     height: 50px;
     margin: 15px;
-    /* border-radius: 50%; */
   }
 
   .btn {
@@ -70,61 +69,3 @@
   }
 }
 
-/* #ballon-1{
-    background:SlateBlue;
-}
-#ballon-2{
-    background:gold;
-}
-#ballon-3{
-    background:lightgreen;
-}
-#ballon-4{
-    background:peachpuff;
-}
-#ballon-5{
-    background:Teal;
-}
-#ballon-6{
-    background:green;
-}
-#ballon-7{
-    background:Magenta;
-}
-#ballon-8{
-    background:darkslategray;
-}
-#ballon-9{
-    background:Aquamarine;
-}
-#ballon-10{
-    background:Crimson;
-}
-
-#ballon-11{
-    background:Salmon;
-}
-
-#ballon-12{
-    background:sienna;
-}
-
-#ballon-13{
-    background:hotpink;
-}
-
-#ballon-14{
-    background:Violet;
-}
-
-#ballon-15{
-    background:indigo;
-} */
-
-/* .balloon:nth-child(2){animation-duration:3.5s; }
-  
-  .balloon:nth-child(3){animation-duration:3s; }
-  
-  .balloon:nth-child(4){animation-duration:4.5s; }
-  
-  .balloon:nth-child(5){animation-duration:5s; } */
