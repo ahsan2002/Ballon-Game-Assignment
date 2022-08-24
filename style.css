@@ -1,0 +1,130 @@
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.balloon {
+  display: inline-block;
+  width: 90px;
+  height: 100px;
+  background: rgb(121, 198, 210);
+  border-radius: 80%;
+  position: relative;
+  box-shadow: inset -10px -10px 0 rgba(0, 0, 0, 0.07);
+  margin: 20px 30px;
+  transition: transform 0.5s ease;
+  z-index: 10;
+  animation: balloons 4s ease-in-out infinite;
+  transform-origin: bottom center;
+  cursor: pointer;
+}
+
+@keyframes balloons {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-25px) rotate(4deg);
+  }
+}
+
+.balloon:before {
+  content: "▲";
+  font-size: 20px;
+  color: rgb(0, 2, 5);
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -12px;
+  z-index: -100;
+}
+
+#color {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn {
+  text-align: center;
+  margin-left: 650px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .balloon {
+    height: 50px;
+    margin: 15px;
+    /* border-radius: 50%; */
+  }
+
+  .btn {
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+}
+
+/* #ballon-1{
+    background:SlateBlue;
+}
+#ballon-2{
+    background:gold;
+}
+#ballon-3{
+    background:lightgreen;
+}
+#ballon-4{
+    background:peachpuff;
+}
+#ballon-5{
+    background:Teal;
+}
+#ballon-6{
+    background:green;
+}
+#ballon-7{
+    background:Magenta;
+}
+#ballon-8{
+    background:darkslategray;
+}
+#ballon-9{
+    background:Aquamarine;
+}
+#ballon-10{
+    background:Crimson;
+}
+
+#ballon-11{
+    background:Salmon;
+}
+
+#ballon-12{
+    background:sienna;
+}
+
+#ballon-13{
+    background:hotpink;
+}
+
+#ballon-14{
+    background:Violet;
+}
+
+#ballon-15{
+    background:indigo;
+} */
+
+/* .balloon:nth-child(2){animation-duration:3.5s; }
+  
+  .balloon:nth-child(3){animation-duration:3s; }
+  
+  .balloon:nth-child(4){animation-duration:4.5s; }
+  
+  .balloon:nth-child(5){animation-duration:5s; } */
