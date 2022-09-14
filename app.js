@@ -28,14 +28,13 @@ function nextcolor() {
     findcolor=colors[Math.floor(Math.random()*colors.length)];
     console.log(findcolor);
     document.getElementById("color").innerText=findcolor;
-    
 }
 
 
 function findbal(balloon) {
 
     var ballon=document.getElementById(balloon);
-    console.log("redddd",ballon.style.background);
+    // console.log("redddd",ballon.style.background);
 
     if (findcolor.toLowerCase() === ballon.style.background) {
         alert("color found");
